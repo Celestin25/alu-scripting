@@ -25,7 +25,7 @@ def add_title(dictionary, hot_posts):
 
 def recurse(subreddit, dictionary, after=None):
     """ Queries to Reddit API """
-    u_agent = 'Celestin25'
+    u_agent = 'Mozilla/5.0'
     headers = {
         'User-Agent': u_agent
     }
